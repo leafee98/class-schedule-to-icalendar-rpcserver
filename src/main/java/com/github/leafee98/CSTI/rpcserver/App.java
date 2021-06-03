@@ -1,10 +1,11 @@
 package com.github.leafee98.CSTI.rpcserver;
 
+import java.io.IOException;
+
 import com.github.leafee98.CSTI.rpcserver.rpc.RPCServerImpl;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
 
 public class App {
     private static final Logger logger = LoggerFactory.getLogger(App.class);
